@@ -1,0 +1,58 @@
+name: flutter_resume_website
+description: A minimalistic Flutter resume website.
+version: 1.2.0
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  file: ^6.1.4
+  auto_route: ^4.0.1
+  responsive_framework: ^0.2.0
+  animations: ^2.0.3
+  flutter_hooks: ^0.18.6
+  hooks_riverpod: ^1.0.4
+  url_launcher: ^6.1.2
+  sticky_headers: ^0.3.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+  build_runner: ^2.1.11
+  auto_route_generator: ^4.0.0
+  flutter_lints:
+
+flutter_icons:
+  android: true
+  ios: true
+  adaptive_icon_background: "#FFFFFFFF"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/images/dev/
+    - assets/images/emojis/
+    - assets/images/jobs_logo/
+    - assets/images/social_networks_logo/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
