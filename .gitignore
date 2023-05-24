@@ -45,3 +45,10 @@ pubspec.lock
 
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+CUSTOM_PREDICTOR_IMAGE_URI = f"gcr.io/300269605649/pytorch_predict_SAM"
+docker build --tag=f"gcr.io/300269605649/pytorch_predict_segment_anything" ./predictor
+
+# run docker container to start local TorchServe deployment
+docker run -t -d --rm -p 7080:7080 --name=local_bert_classifier "gcr.io/300269605649/pytorch_predict_segment_anything" && sleep 20
+

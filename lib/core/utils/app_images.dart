@@ -8,8 +8,9 @@ class AppImages {
   static const String saltEmoji = 'assets/images/emojis/salt_emoji.png';
   static const String heartEmoji = 'assets/images/emojis/heart_emoji.png';
   // Company logos
-  static const String altamiraLogo = 'assets/images/jobs_logo/altamira.png';
-  static const String globaldevLogo = 'assets/images/jobs_logo/globaldev.png';
+  static const String ncubeLogo = 'assets/images/jobs_logo/ncube_logo.png';
+  static const String altamiraLogo = 'assets/images/jobs_logo/altamira_logo.png';
+  static const String globaldevLogo = 'assets/images/jobs_logo/globaldev_logo.png';
   static const String catLogo = 'assets/images/jobs_logo/cat_logo.png';
   static const String huckLogo = 'assets/images/jobs_logo/huck_logo.png';
   static const String taxmeLogo = 'assets/images/jobs_logo/taxme_logo.png';

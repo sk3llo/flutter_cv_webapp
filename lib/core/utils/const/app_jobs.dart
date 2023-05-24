@@ -4,6 +4,17 @@ import 'package:flutter_resume_website/features/home/widgets/jobs_list/widgets/w
 abstract class AppJobs {
   static const listOfJobs = [
     Job(
+      imageAsset: AppImages.ncubeLogo,
+      companyName: 'NCube',
+      description: 'Dart/Flutter Developer',
+      flippedDescription: "Was leading development of the mobile app for "
+          "educational institution. The app had to be cross-platform and run "
+          "on phones, tablets and laptops. Orientation (Portrait/Landscape) "
+          "and platform-based differences were also supported. App was "
+          "localized into different languages and had accessibility features "
+          "such as large fonts and screen readers.",
+    ),
+    Job(
       imageAsset: AppImages.altamiraLogo,
       companyName: 'Altamira',
       description: 'Dart/Flutter Developer',
